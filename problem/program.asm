@@ -1,6 +1,6 @@
-// COLOCO AQUÍ TU NOMBRE COMPLETO
-// COLOCA AQUÍ TU ID
-// COLOCA AQUÍ TU CORREO ELECTRÓNICO
+// Juan jose lopez salazar 
+// 000397618
+// juan.lopezs@upb.edu.co
 (START)
     @START
     0;JMP
