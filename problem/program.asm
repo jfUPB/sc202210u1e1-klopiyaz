@@ -1,6 +1,7 @@
 // Juan jose lopez salazar 
 // 000397618
 // juan.lopezs@upb.edu.co
+@START
        @24576    
 	D=M       
 	@70
@@ -80,5 +81,4 @@
 	D;JGT
 	@0
 	D;JEQ
-@START
 0;JMP
