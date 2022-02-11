@@ -1,7 +1,6 @@
 // Juan jose lopez salazar 
 // 000397618
 // juan.lopezs@upb.edu.co
-
 @24576
 D=M
 @70
@@ -14,7 +13,7 @@ D;JNE
 D=M
 @67
 D=D-A
-@46
+@41
 D;JEQ
 @8
 D;JNE
@@ -64,7 +63,7 @@ D=D+A
 M=D
 @16
 MD=M-1
-@56
+@51
 D;JGT
 @0
 D;JEQ
