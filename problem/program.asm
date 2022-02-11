@@ -14,7 +14,7 @@ D;JNE
 D=M
 @67
 D=D-A
-@41
+@46
 D;JEQ
 @8
 D;JNE
@@ -64,7 +64,7 @@ D=D+A
 M=D
 @16
 MD=M-1
-@51
+@56
 D;JGT
 @0
 D;JEQ
