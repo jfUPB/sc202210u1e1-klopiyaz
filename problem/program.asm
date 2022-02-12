@@ -1,72 +1,80 @@
 // Juan jose lopez salazar 
 // 000397618
 // juan.lopezs@upb.edu.co
-	@24576
-	D=M
-	@70
-	D=D-A
-	@16
-	D;JEQ
-	@0
-	D;JNE
-	@24576
-	D=M
-	@67
-	D=D-A
-	@41
-	D;JEQ
-	@8
-	D;JNE
-	@0
-	D=M
-	@66
-	D;JLE
-	@16
-	M=D
-	@16384
-	D=A
-	@17
-	M=D
-	@17
-	A=M
-	M=-1
-	@17
-	D=M
-	@1
-	D=D+A
-	@17
-	M=D
-	@16
-	MD=M-1
-	@26
-	D;JGT
-	@6
-	0;JEQ
-	@1
-	D=M
-	@62
-	D;JLE
-	@16
-	M=D
-	@16384
-	D=A
-	@17
-	M=D
-	@17
-	A=M
-	M=0
-	@17
-	D=M
-	@1
-	D=D+A
-	@17
-	M=D
-	@16
-	MD=M-1
-	@51
-	D;JGT
-	@0
-	D;JEQ
-	@66
-	0;JMP
-        @25
+@0       
+D=M      
+@8192    
+D=A      
+@0       
+M=D      
+@1       
+D=M      
+@8192    
+D=A     
+@1       
+M=D      
+  (INICIO)
+@24576          
+D=M             
+@70             
+D=D-A           
+@LOOP           
+D;JEQ                  
+@24576               
+D=M             
+@67             
+D=D-A           
+@LOOP3         
+D;JEQ           
+@INICIO         
+D;JNE          
+  (LOOP)
+@0         
+D=M        
+@16         
+M=D             
+@16384     
+D=A        
+@17         
+M=D        
+  (LOOP2)
+@17        
+A=M        
+M=-1       
+@17        
+D=M        
+@1         
+D=D+A      
+@17        
+M=D        
+@16        
+MD=M-1     
+@LOOP2     
+D;JGT      
+@INICIO    
+0;JEQ      
+  (LOOP3)
+@1         
+D=M        
+@16        
+M=D        
+@16384     
+D=A        
+@17        
+M=D        
+  (LOOP4)          
+@17       
+A=M       
+M=0        
+@17        
+D=M        
+@1         
+D=D+A      
+@17        
+M=D        
+@16        
+MD=M-1     
+@LOOP4     
+D;JGT      
+@INICIO    
+0;JEQ 
